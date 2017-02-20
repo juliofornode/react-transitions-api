@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.4",

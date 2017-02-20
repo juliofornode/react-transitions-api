@@ -1,1 +1,65 @@
 @import 'normalize.css';
+
+body {
+  margin: 50px;
+}
+
+.myContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.myItem {
+  flex: 0 1 auto;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.myItem:nth-child(even) {
+  background-color: orange;
+}
+
+.myItem:nth-child(odd) {
+  background-color: pink;
+}
+
+.example-appear {
+   opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+   opacity: 1;
+   transition: opacity 500ms ease-in;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+
+/* Example Two */
+
+.example2-appear {
+   opacity: 0.01;
+}
+
+.example2-appear.example2-appear-active {
+   opacity: 1;
+   transition: opacity 500ms ease-in;
+}
